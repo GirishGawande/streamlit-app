@@ -1,6 +1,17 @@
-numpy==1.24.2
-pandas
+# ✅ Fix for numpy build
+numpy>=1.25.0
+
+# ✅ Streamlit dependency
 streamlit
+
+# ✅ Remove langchain-core version conflict
+# Keep only the compatible langchain-groq and let it auto-install langchain-core
+langchain-groq==0.3.2
+
+# ✅ Optional: Add other dependencies here
+# numpy==1.24.2
+pandas
+# streamlit
 setuptools
 langchain-core>=0.3.49
-langchain-groq==0.3.2
+# langchain-groq==0.3.2
