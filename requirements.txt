@@ -4,3 +4,4 @@ numpy>=1.25.0
 pandas
 python-dotenv
 langchain-groq==0.3.2
+langchain
