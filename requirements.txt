@@ -13,5 +13,10 @@ langchain-groq==0.3.2
 pandas
 # streamlit
 setuptools
-langchain-core>=0.3.49
+langchain-core
 # langchain-groq==0.3.2
+
+streamlit
+# numpy>=1.25.0
+# langchain-groq==0.3.2
+# Do NOT specify langchain-core manually — it will be pulled automatically
