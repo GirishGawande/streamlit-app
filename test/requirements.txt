@@ -1,0 +1,11 @@
+torch==2.0.1
+transformers
+sentence-transformers
+langchain
+langchain-groq
+langchain-community
+streamlit
+faiss-cpu
+python-dotenv
+pypdf2
+tiktoken
