@@ -10,7 +10,10 @@ from dotenv import load_dotenv
 # Use these consistent imports instead
 from langchain_core.prompts import PromptTemplate
 # from langchain_core.memory import ConversationBufferMemory
-from langchain.chains.conversation.base import ConversationChain
+# from langchain.chains.conversation.base import ConversationChain
+from langchain_core.prompts import PromptTemplate
+from langchain_groq import ChatGroq
+from langchain_core.runnables import RunnableSequence
 from langchain_groq import ChatGroq
 from langchain.memory import ConversationBufferMemory
 
