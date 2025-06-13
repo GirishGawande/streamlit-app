@@ -1,8 +1,6 @@
-numpy==1.24.3
-streamlit==1.32.0
-langchain-core==0.1.16
-langchain-community==0.0.16
-# Remove this line: langchain==0.1.4
+numpy==1.24.2
+pandas
+streamlit
+setuptools
+langchain-core>=0.3.49
 langchain-groq==0.3.2
-groq==0.8.0
-python-dotenv==1.0.0
